@@ -1,0 +1,21 @@
+h3{
+    margin-left: 500px;
+}
+
+.form{
+
+ margin-left: 500px;
+ 
+}
+
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 20px;
+}
+
+h4{
+    margin-left: 20px;
+}

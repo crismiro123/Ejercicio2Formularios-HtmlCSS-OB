@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h3>Formularios</h3>
+    <div class="form">
+    <form>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="apellido">Apellido</label><br>
+        <input type="text" id="apellido" name="apellido"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="movil">Número de teléfono</label><br>
+        <input type="tel" id="movil" name="movil" placeholder="123-45-67-89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}" required><br>
+        <label for="direccion">Dirección</label><br>
+        <input type="street-address" id="direccion" placeholder="calle/número" required>
+    </form>
+</div>
+
+    <h4>Tablas</h4>
+    <table>
+        <tr>
+            <th colspan="2">Nombre y Apellido</th>
+            <th>Asignatura</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Sonia</td>
+            <td>Gómez</td>
+            <td>Castellano</td>
+            <td rowspan="2">8</td>
+        </tr>
+        <tr>
+            <td>Manuel</td>
+            <td>Torres</td>
+            <td>Matemáticas</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>López</td>
+            <td>Sociales</td>
+            <td>7.3</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
